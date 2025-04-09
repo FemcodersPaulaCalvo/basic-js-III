@@ -92,3 +92,10 @@ function upperCaseLetters(letters1) {
 }
 
 // console.log(upperCaseLetters("hola caracola"));
+
+// EXERCISE 4
+function lowerCaseLetters(letters1) {
+  return letters1.toLowerCase();
+}
+
+// console.log(lowerCaseLetters("HOLITA VECINITO"));
