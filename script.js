@@ -27,3 +27,10 @@ function numberDivision(num1, num2) {
 }
 
 // console.log(numberDivision(60, 3));
+
+// EXERCISE 5
+function numberRaise(base, exponent) {
+  return base ** exponent;
+}
+
+console.log(numberRaise(4, 2));
