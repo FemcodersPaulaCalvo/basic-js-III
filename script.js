@@ -115,9 +115,9 @@ function reversedLetters(letters1) {
 // console.log(reversedLetters("Huevos fritos con tomate"));
 
 // EXERCISE 7
-function quantityCharactersAtLetters(letters1, char1) {
+function quantityCharactersString(string1, char1) {
   let counterCharacters = 0;
-  for (let i = 0; i < letters1.length; i++) {
+  for (let i = 0; i < string1.length; i++) {
     if (letters1[i] == char1) {
       counterCharacters++;
     }
@@ -125,4 +125,11 @@ function quantityCharactersAtLetters(letters1, char1) {
   return counterCharacters;
 }
 
-// console.log(quantityCharactersAtLetters("Hola don Pepito", "o"));
+// console.log(quantityCharactersString("Hola don Pepito", "o"));
+
+// EXERCISE 8
+function removeSpacesString(string1) {
+  return string1.replaceAll(" ", "");
+}
+
+// console.log(removeSpacesString(" car men "));
