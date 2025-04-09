@@ -142,3 +142,17 @@ function itsPalindromeString(string1) {
 
 // console.log(itsPalindromeString("reconocer"));
 // console.log(itsPalindromeString("desconocido"));
+
+// EXERCISE 10
+function firstUpperCaseString(string1) {
+  let newString = [];
+  const arrayString = string1.split(" ");
+  for (let i = 0; i < arrayString.length; i++) {
+    const upperCase = arrayString[i].slice(0, 1).toUpperCase();
+    const lowerCase = arrayString[i].slice(1, arrayString[i].length);
+    newString.push(upperCase + lowerCase);
+  }
+  return newString.join(" ");
+}
+
+// console.log(firstUpperCaseString("hola, don jose"));
