@@ -41,3 +41,10 @@ function numberRest(num1, num2) {
 }
 
 // console.log(numberRest(100, 3));
+
+// EXERCISE 7
+function numberSquareRoot(num) {
+  return Math.sqrt(num);
+}
+
+console.log(numberSquareRoot(16));
