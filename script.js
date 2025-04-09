@@ -133,3 +133,12 @@ function removeSpacesString(string1) {
 }
 
 // console.log(removeSpacesString(" car men "));
+
+// EXERCISE 9
+function itsPalindromeString(string1) {
+  return string1 == reversedLetters(string1);
+  //   return string1 == string1.split("").reverse().join("");
+}
+
+// console.log(itsPalindromeString("reconocer"));
+// console.log(itsPalindromeString("desconocido"));
