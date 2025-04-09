@@ -156,3 +156,15 @@ function firstUpperCaseString(string1) {
 }
 
 // console.log(firstUpperCaseString("hola, don jose"));
+
+//          ARRAYS
+// EXERCISE 1
+function sumArrayOfNumbers(array1) {
+  let sumNumber = 0;
+  for (let i = 0; i < array1.length; i++) {
+    sumNumber += array1[i];
+  }
+  return sumNumber;
+}
+
+// console.log(sumArrayOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
