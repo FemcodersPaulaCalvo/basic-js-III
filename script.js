@@ -106,3 +106,10 @@ function positionCharacterLetters(letters1, num1) {
 }
 
 // console.log(positionCharacterLetters("Corre platano", 7));
+
+// EXERCISE 6
+function reversedLetters(letters1) {
+  return letters1.split("").reverse().join("");
+}
+
+// console.log(reversedLetters("Huevos fritos con tomate"));
