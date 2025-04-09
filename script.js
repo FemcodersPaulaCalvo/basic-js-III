@@ -77,4 +77,11 @@ function concatenationLetters(letters1, letters2) {
   return letters1 + letters2;
 }
 
-console.log(concatenationLetters("Hola", "Mundo"));
+// console.log(concatenationLetters("Hola", "Mundo"));
+
+// EXERCISE 2
+function sizeLetters(letters1) {
+  return letters1.length;
+}
+
+// console.log(sizeLetters("Hola"));
