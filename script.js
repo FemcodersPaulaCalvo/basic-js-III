@@ -61,5 +61,12 @@ function numberRound(num) {
   return Math.round(num);
 }
 
-console.log(numberRound(9.8));
-console.log(numberRound(9.2));
+// console.log(numberRound(9.8));
+// console.log(numberRound(9.2));
+
+// EXERCISE 10
+function randomNumber() {
+  return Math.random();
+}
+
+// console.log(randomNumber());
