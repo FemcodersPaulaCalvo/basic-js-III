@@ -85,3 +85,10 @@ function sizeLetters(letters1) {
 }
 
 // console.log(sizeLetters("Hola"));
+
+// EXERCISE 3
+function upperCaseLetters(letters1) {
+  return letters1.toUpperCase();
+}
+
+// console.log(upperCaseLetters("hola caracola"));
