@@ -54,4 +54,12 @@ function numberAbsoluteValue(num) {
   return Math.abs(num);
 }
 
-console.log(numberAbsoluteValue(15));
+// console.log(numberAbsoluteValue(15));
+
+// EXERCISE 9
+function numberRound(num) {
+  return Math.round(num);
+}
+
+console.log(numberRound(9.8));
+console.log(numberRound(9.2));
