@@ -33,4 +33,11 @@ function numberRaise(base, exponent) {
   return base ** exponent;
 }
 
-console.log(numberRaise(4, 2));
+// console.log(numberRaise(4, 2));
+
+// EXERCISE 6
+function numberRest(num1, num2) {
+  return num1 % num2;
+}
+
+// console.log(numberRest(100, 3));
