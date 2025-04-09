@@ -168,3 +168,14 @@ function sumArrayOfNumbers(array1) {
 }
 
 // console.log(sumArrayOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+// EXERCISE 2
+function averageArrayOfNumbers(array1) {
+  let sumNumber = 0;
+  for (let i = 0; i < array1.length; i++) {
+    sumNumber += array1[i];
+  }
+  return sumNumber / array1.length;
+}
+
+// console.log(averageArrayOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
