@@ -47,4 +47,11 @@ function numberSquareRoot(num) {
   return Math.sqrt(num);
 }
 
-console.log(numberSquareRoot(16));
+// console.log(numberSquareRoot(16));
+
+// EXERCISE 8
+function numberAbsoluteValue(num) {
+  return Math.abs(num);
+}
+
+console.log(numberAbsoluteValue(15));
