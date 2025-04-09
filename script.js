@@ -113,3 +113,16 @@ function reversedLetters(letters1) {
 }
 
 // console.log(reversedLetters("Huevos fritos con tomate"));
+
+// EXERCISE 7
+function quantityCharactersAtLetters(letters1, char1) {
+  let counterCharacters = 0;
+  for (let i = 0; i < letters1.length; i++) {
+    if (letters1[i] == char1) {
+      counterCharacters++;
+    }
+  }
+  return counterCharacters;
+}
+
+// console.log(quantityCharactersAtLetters("Hola don Pepito", "o"));
