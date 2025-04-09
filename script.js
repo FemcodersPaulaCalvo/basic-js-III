@@ -70,3 +70,11 @@ function randomNumber() {
 }
 
 // console.log(randomNumber());
+
+//          LETTERS
+// EXERCISE 1
+function concatenationLetters(letters1, letters2) {
+  return letters1 + letters2;
+}
+
+console.log(concatenationLetters("Hola", "Mundo"));
