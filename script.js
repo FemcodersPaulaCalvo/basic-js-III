@@ -99,3 +99,10 @@ function lowerCaseLetters(letters1) {
 }
 
 // console.log(lowerCaseLetters("HOLITA VECINITO"));
+
+// EXERCISE 5
+function positionCharacterLetters(letters1, num1) {
+  return letters1.charAt(num1);
+}
+
+// console.log(positionCharacterLetters("Corre platano", 7));
