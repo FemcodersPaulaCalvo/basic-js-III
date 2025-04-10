@@ -158,6 +158,7 @@ function firstUpperCaseString(string1) {
 // console.log(firstUpperCaseString("hola, don jose"));
 
 //          ARRAYS
+
 // EXERCISE 1
 function sumArrayOfNumbers(array1) {
   let sumNumber = 0;
@@ -202,6 +203,21 @@ function ascendingOrderArray(array1) {
 
   return orderedArray;
 }
+const arrayPrueba = [9, 4, 5, 3, 7, 2, 8, 6, 1];
 
-const arrayPrueba = [9, 4, 5, 3, 7, 2, 8];
 // console.log(ascendingOrderArray(arrayPrueba)); // [2, 3, 4, 5, 7, 8, 9]
+
+// EXERCISE 4
+function arrayBiggerNumbersThanIndex(array1, num1) {
+  let biggestNumbersArray = [];
+
+  for (let i = 0; i < array1.length; i++) {
+    if (array1[i] > num1) {
+      biggestNumbersArray.push(array1[i]);
+    }
+  }
+
+  return biggestNumbersArray;
+}
+
+console.log(arrayBiggerNumbersThanIndex(arrayPrueba, 5));
