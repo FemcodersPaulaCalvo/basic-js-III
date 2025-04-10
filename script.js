@@ -220,4 +220,20 @@ function arrayBiggerNumbersThanIndex(array1, num1) {
   return biggestNumbersArray;
 }
 
-console.log(arrayBiggerNumbersThanIndex(arrayPrueba, 5));
+// console.log(arrayBiggerNumbersThanIndex(arrayPrueba, 5));
+
+// EXERCISE 5
+function join2arrays(array1, array2) {
+  let joinArrays = [];
+
+  for (let i = 0; i < array1.length; i++) {
+    joinArrays.push(array1[i]);
+  }
+  for (let i = 0; i < array2.length; i++) {
+    joinArrays.push(array2[i]);
+  }
+
+  return joinArrays;
+}
+
+// console.log(join2arrays(arrayPrueba, arrayPrueba));
