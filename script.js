@@ -179,3 +179,29 @@ function averageArrayOfNumbers(array1) {
 }
 
 // console.log(averageArrayOfNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+// EXERCISE 3
+function ascendingOrderArray(array1) {
+  let orderedArray = [];
+
+  for (let i = 0; i < array1.length; i++) {
+    let inserted = false;
+
+    for (let j = 0; j < orderedArray.length; j++) {
+      if (array1[i] < orderedArray[j]) {
+        orderedArray.splice(j, 0, array1[i]);
+        inserted = true;
+        break;
+      }
+    }
+
+    if (!inserted) {
+      orderedArray.push(array1[i]);
+    }
+  }
+
+  return orderedArray;
+}
+
+const arrayPrueba = [9, 4, 5, 3, 7, 2, 8];
+// console.log(ascendingOrderArray(arrayPrueba)); // [2, 3, 4, 5, 7, 8, 9]
