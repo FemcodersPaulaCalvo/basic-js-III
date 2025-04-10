@@ -385,6 +385,13 @@ function compareObj(obj1, obj2) {
   return allSame;
 }
 
-let person2 = { name: "Paula", surname: "Calvo", age: 22 };
+let person2 = { name: "Paula", surname: "Calvoo", age: 22 };
 
 // console.log(compareObj(person1, person2));
+
+// EXERCISE 9
+function copyObject(obj1) {
+  return Object.assign({}, obj1);
+}
+
+// console.log(copyObject(person1));
