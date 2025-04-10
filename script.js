@@ -352,3 +352,10 @@ function propertyExist(obj1, str1) {
 
 // console.log(propertyExist(person1, "name"));
 // console.log(propertyExist(person1, "firstName"));
+
+// EXERCISE 7
+function arrayValuesObj(obj1) {
+  return Object.values(obj1);
+}
+
+// console.log(arrayValuesObj(person1));
