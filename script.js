@@ -250,3 +250,16 @@ function biggestNumberArray(array1) {
 }
 
 // console.log(biggestNumberArray(arrayPrueba));
+
+// EXERCISE 7
+function smallestNumberArray(array1) {
+  let smallestNumber = array1[0];
+  for (let i = 1; i < array1.length; i++) {
+    if (array1[i] < smallestNumber) {
+      smallestNumber = array1[i];
+    }
+  }
+  return smallestNumber;
+}
+
+// console.log(smallestNumberArray(arrayPrueba));
