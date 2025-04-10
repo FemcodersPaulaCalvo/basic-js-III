@@ -329,3 +329,11 @@ function newPropertyObject(obj1, str1) {
 }
 
 // newPropertyObject(person1, "canDrive");
+
+// EXERCISE 4
+function deleteProperty(obj1, str1) {
+  delete obj1[str1];
+  console.log(obj1);
+}
+
+// deleteProperty(person1, "name");
