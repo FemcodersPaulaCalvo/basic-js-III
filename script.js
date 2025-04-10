@@ -205,7 +205,7 @@ function ascendingOrderArray(array1) {
 }
 const arrayPrueba = [9, 4, 5, 3, 7, 2, 8, 6, 1];
 
-// console.log(ascendingOrderArray(arrayPrueba)); // [2, 3, 4, 5, 7, 8, 9]
+// console.log(ascendingOrderArray(arrayPrueba)); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 // EXERCISE 4
 function arrayBiggerNumbersThanIndex(array1, num1) {
@@ -237,3 +237,16 @@ function join2arrays(array1, array2) {
 }
 
 // console.log(join2arrays(arrayPrueba, arrayPrueba));
+
+// EXERCISE 6
+function biggestNumberArray(array1) {
+  let biggestNumber = array1[0];
+  for (let i = 1; i < array1.length; i++) {
+    if (array1[i] > biggestNumber) {
+      biggestNumber = array1[i];
+    }
+  }
+  return biggestNumber;
+}
+
+// console.log(biggestNumberArray(arrayPrueba));
