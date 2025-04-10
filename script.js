@@ -118,7 +118,7 @@ function reversedLetters(letters1) {
 function quantityCharactersString(string1, char1) {
   let counterCharacters = 0;
   for (let i = 0; i < string1.length; i++) {
-    if (letters1[i] == char1) {
+    if (string1[i] == char1) {
       counterCharacters++;
     }
   }
@@ -263,3 +263,19 @@ function smallestNumberArray(array1) {
 }
 
 // console.log(smallestNumberArray(arrayPrueba));
+
+// EXERCISE 8
+function quantityOfNumberInArray(array1, num1) {
+  let conunter = 0;
+  for (let i = 0; i < array1.length; i++) {
+    if (array1[i] == num1) {
+      conunter++;
+    }
+  }
+  return conunter;
+}
+
+const arrayPrueba2 = [
+  1, 2, 3, 4, 4, 5, 6, 7, 8, 4, 9, 1, 2, 3, 4, 5, 6, 7, 4, 8, 9, 4,
+];
+// console.log(quantityOfNumberInArray(arrayPrueba2, 4));
