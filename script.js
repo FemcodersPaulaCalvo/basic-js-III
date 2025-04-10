@@ -385,7 +385,7 @@ function compareObj(obj1, obj2) {
   return allSame;
 }
 
-let person2 = { name: "Paula", surname: "Calvoo", age: 22 };
+let person2 = { name: "Calvo", surname: "Paula", age: 22 };
 
 // console.log(compareObj(person1, person2));
 
@@ -395,3 +395,10 @@ function copyObject(obj1) {
 }
 
 // console.log(copyObject(person1));
+
+// EXERCISE 10
+function joinObjects(obj1, obj2) {
+  return Object.assign(obj1, obj2);
+}
+
+// console.log(joinObjects(person1, person2));
