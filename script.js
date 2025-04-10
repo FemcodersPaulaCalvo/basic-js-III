@@ -337,3 +337,10 @@ function deleteProperty(obj1, str1) {
 }
 
 // deleteProperty(person1, "name");
+
+// EXERCISE 5
+function quantityPropertiesObj(obj1) {
+  return Object.keys(obj1).length;
+}
+
+// console.log(quantityPropertiesObj(person1));
