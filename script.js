@@ -359,3 +359,32 @@ function arrayValuesObj(obj1) {
 }
 
 // console.log(arrayValuesObj(person1));
+
+// EXERCISE 8
+function compareObj(obj1, obj2) {
+  const property1 = Object.keys(obj1);
+  const values1 = Object.values(obj1);
+  const property2 = Object.keys(obj2);
+  const values2 = Object.values(obj2);
+  let allSame = true;
+
+  if (
+    property1.length == property2.length &&
+    values1.length == values2.length
+  ) {
+    for (let i = 0; i < property1.length; i++) {
+      if (property1[i] != property2[i] || values1[i] != values2[i]) {
+        allSame = false;
+        break;
+      }
+    }
+  } else {
+    allSame = false;
+  }
+
+  return allSame;
+}
+
+let person2 = { name: "Paula", surname: "Calvo", age: 22 };
+
+// console.log(compareObj(person1, person2));
