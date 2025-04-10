@@ -306,10 +306,18 @@ function reverseArray(array1) {
 
 //          OBJECTS
 
-const person1 = { name: "Paula", surname: "Calvo" };
+let person1 = { name: "Paula", surname: "Calvo", age: 22 };
 // EXERCISE 1
 function propertyName(obj1) {
   return obj1.name;
 }
 
 // console.log(propertyName(person1));
+
+// EXERCISE 2
+function changePropertyAge(obj1, num1) {
+  obj1.age = num1;
+  console.log(obj1);
+}
+
+// changePropertyAge(person1, 23);
