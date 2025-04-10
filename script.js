@@ -279,3 +279,16 @@ const arrayPrueba2 = [
   1, 2, 3, 4, 4, 5, 6, 7, 8, 4, 9, 1, 2, 3, 4, 5, 6, 7, 4, 8, 9, 4,
 ];
 // console.log(quantityOfNumberInArray(arrayPrueba2, 4));
+
+// EXERCISE 9
+function numbersUnduplicatedArray(array1) {
+  let uniqueArray = [array1[0]];
+  for (let i = 1; i < array1.length; i++) {
+    if (!uniqueArray.includes(array1[i])) {
+      uniqueArray.push(array1[i]);
+    }
+  }
+  return uniqueArray;
+}
+
+console.log(numbersUnduplicatedArray(arrayPrueba2));
