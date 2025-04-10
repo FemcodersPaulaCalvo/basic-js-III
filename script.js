@@ -344,3 +344,11 @@ function quantityPropertiesObj(obj1) {
 }
 
 // console.log(quantityPropertiesObj(person1));
+
+// EXERCISE 6
+function propertyExist(obj1, str1) {
+  return Object.keys(obj1).includes(str1);
+}
+
+// console.log(propertyExist(person1, "name"));
+// console.log(propertyExist(person1, "firstName"));
