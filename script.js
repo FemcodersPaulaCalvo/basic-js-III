@@ -303,3 +303,13 @@ function reverseArray(array1) {
 }
 
 // console.log(reverseArray(arrayPrueba));
+
+//          OBJECTS
+
+const person1 = { name: "Paula", surname: "Calvo" };
+// EXERCISE 1
+function propertyName(obj1) {
+  return obj1.name;
+}
+
+// console.log(propertyName(person1));
