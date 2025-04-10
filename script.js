@@ -321,3 +321,11 @@ function changePropertyAge(obj1, num1) {
 }
 
 // changePropertyAge(person1, 23);
+
+// EXERCISE 3
+function newPropertyObject(obj1, str1) {
+  obj1[str1] = null;
+  console.log(obj1);
+}
+
+// newPropertyObject(person1, "canDrive");
