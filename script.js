@@ -291,4 +291,15 @@ function numbersUnduplicatedArray(array1) {
   return uniqueArray;
 }
 
-console.log(numbersUnduplicatedArray(arrayPrueba2));
+// console.log(numbersUnduplicatedArray(arrayPrueba2));
+
+// EXERCISE 10
+function reverseArray(array1) {
+  let reverseArray = [];
+  for (let i = 0; i < array1.length; i++) {
+    reverseArray.unshift(array1[i]);
+  }
+  return reverseArray;
+}
+
+// console.log(reverseArray(arrayPrueba));
